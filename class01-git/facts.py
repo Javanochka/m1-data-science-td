@@ -9,6 +9,7 @@ people = [
            facts=['Fact-right.', 'Fact-write.', 'Fact-right.']),
     Person(github_login='javanochka', first_name='Anna', last_name='Nikiforovskaja',
            facts=['I can meow like a cat', 'I am a PhD student', 'I am not Estonian']),
+    Person(),
 ]
 #facts are numerated from 0
 answers = {'example': 1,
