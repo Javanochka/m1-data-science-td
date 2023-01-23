@@ -12,7 +12,8 @@ people = [
     Person(),
 ]
 #facts are numerated from 0
-answers = {'example': 1,
+answers = {'blah': -1,
+           'example': 1,
            'javanochka': 2}
 
 
