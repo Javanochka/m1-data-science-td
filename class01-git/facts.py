@@ -8,10 +8,11 @@ people = [
     Person(github_login='example', first_name='Name', last_name='Surname',
            facts=['Fact-right.', 'Fact-write.', 'Fact-right.']),
     Person(github_login='javanochka', first_name='Anna', last_name='Nikiforovskaja',
-           facts=['I can meow like a cat', 'I am a PhD student', 'I am Estonian']),
+           facts=['I can meow like a cat', 'I am a PhD student', 'I am not Estonian']),
 ]
-
-answers = {}
+#facts are numerated from 0
+answers = {'example': 1,
+           'javanochka': 2}
 
 
 def format_person_info(person):
@@ -32,7 +33,7 @@ def list_facts(github_login):
     else:
         person = found[0]
         print(format_person_info(person), 'Facts:')
-        print(*[f'{i + 1}. {person.facts[i]}' for i in range(len(person.facts))], sep='\n')
+        print(*[f'{i}. {person.facts[i]}' for i in range(len(person.facts))], sep='\n')
 
 
 def check_answer(github_login, answer):
