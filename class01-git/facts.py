@@ -10,7 +10,7 @@ people = [
     Person(github_login='javanochka', first_name='Anna', last_name='Nikiforovskaja',
            facts=['I can meow like a cat', 'I am a PhD student', 'I am not Estonian']),
     Person(github_login='Cosette-chan', first_name='Fantine', last_name='Horvath', 
-            facts=['I am allergic to pineapple', 'I hate dinosaurs', 'I drink 7 cups of coffee daily'])
+            facts=['I am allergic to pineapple', 'I hate big dinosaurs', 'I drink 7 cups of coffee daily'])
 ]
 #facts are numerated from 0
 answers = {'example': 1,
