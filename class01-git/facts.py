@@ -12,7 +12,7 @@ people = [
     Person(github_login='srunnalin', first_name='Nalin', last_name='Srun',
            facts=['I like to sleep in my freetime :)', 'I am a master student', 'I am from Cambodia']),
     Person(github_login='ADrelingyte', first_name='Aine', last_name='Drelingyte',
-           facts=['I sleep when I am stressed)', 'I am good at singing', 'I love martial arts']),
+           facts=['I sleep a lot when I am stressed)', 'I am good at singing', 'I love martial arts']),
 ]
 #facts are numerated from 0
 answers = {'example': 1,
