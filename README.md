@@ -8,6 +8,6 @@ So, you have completed a task and now you want a feedback. First, make a fork of
 
 If the fork is already created, please make sure it is up to date. :) (Read carefully the second part of that instuction).
 
-When you create a pull request, please, write a meaningful title for it, mentioning the tasks you have done. And also, mention me @Javanochka or William (@sotwi) in the comment of that pull request, so that we got a notification to check it. 
+When you create a pull request, please, write a meaningful title for it, mentioning the tasks you have done. And also, mention me [@Javanochka](https://github.com/Javanochka/) or William ([@sotwi](https://github.com/sotwi/)) in the comment of that pull request, so that we got a notification to check it. 
 
 
