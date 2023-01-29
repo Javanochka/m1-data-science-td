@@ -76,6 +76,6 @@ if __name__ == '__main__':
     while True:
         print('> ', end='', flush=True)
         try:
-            p(sys.stdin.readline().strip())
+            run_cmd(sys.stdin.readline().strip())
         except Exception: # This is a VERY bad style.
             continue
