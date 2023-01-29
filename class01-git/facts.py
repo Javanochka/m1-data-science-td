@@ -5,15 +5,15 @@ import sys
 
 Person = collections.namedtuple('Person', ['github_login', 'first_name', 'last_name', 'facts'])
 people = [
-    Person(github_login='example', first_name='Name', last_name='Surname',
-           facts=['Fact-right.', 'Fact-write.', 'Fact-right.']),
+    Person(github_login='Elizabeth129', first_name='Yelyzaveta', last_name='Ivanytska',
+           facts=['I am from Ukraine', 'I have a dog', 'I like read books']),
     Person(github_login='javanochka', first_name='Anna', last_name='Nikiforovskaja',
            facts=['I can meow like a cat', 'I am a PhD student', 'I am not Estonian']),
     Person(github_login='srunnalin', first_name='Nalin', last_name='Srun',
            facts=['I like to sleep in my freetime :)', 'I am a master student', 'I am from Cambodia']),
 ]
 #facts are numerated from 0
-answers = {'example': 1,
+answers = {'Elizabeth129': 1,
            'javanochka': 2}
 
 
@@ -76,6 +76,6 @@ if __name__ == '__main__':
     while True:
         print('> ', end='', flush=True)
         try:
-            run_cmd(sys.stdin.readline().strip())
+            p(sys.stdin.readline().strip())
         except Exception: # This is a VERY bad style.
             continue
