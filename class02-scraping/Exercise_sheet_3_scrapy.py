@@ -21,7 +21,6 @@ class WikipediaSpider(scrapy.Spider): #Something is missing here. What exactly?
     def parse_artist(self, response):
         url = response.url #get url of the page
         name = response.xpath('//h1/span/text()').get().split('(')[0].strip() # get name of the artist
-        # [@class != "mw-empty-elt"]
         paragraph = (''.join(response.xpath('//div[@class="mw-parser-output"]/p[not(@class)][1]//text()').getall())).strip() # get the first paragraph
         yield {'url': url,
                'name': name,
@@ -31,6 +30,7 @@ class WikipediaSpider(scrapy.Spider): #Something is missing here. What exactly?
 if __name__=='__main__':
     import scrapy.crawler
 
+    # Delete artists.json if exist
     if Path('artists.json').is_file():
         Path('artists.json').unlink()
     
