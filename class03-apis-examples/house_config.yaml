@@ -1,0 +1,27 @@
+animals:
+  - arta:
+    name: Arta
+    sex: female
+    type: cat
+    age: 2
+    colour: orange
+  - bork:
+    name: Bork
+    sex: male
+    type: dog
+    age: 5
+    colour: brown
+    
+people:
+  - mother:
+    name: Lina
+    age: 40
+  - father:
+    name: John
+    age: 39
+  - child:
+    name: "X-Æ-17"
+    age: 2
+    
+address: "75 Magic St, Vilnius, Lithuania"
+welcome_message: "Welcome to our house!"
