@@ -21,8 +21,8 @@ class WikipediaSpider: #Something is missing here. What exactly?
         yield {'url': url,
                'name': name,
                'paragraph': paragraph}
-        
-        
+
+
 if __name__=='__main__':
     import scrapy.crawler
     
