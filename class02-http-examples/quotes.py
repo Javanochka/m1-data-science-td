@@ -22,7 +22,7 @@ while next_el is not None:
     next_url = url + link
     l.extend(get_quotes(next_url))
     next_el = get_next(next_url)
-    
+
 with open('quotes.txt','w') as f:
     for i in range(len(l)):
         print(f"{i}: {l[i]}", file=f)
