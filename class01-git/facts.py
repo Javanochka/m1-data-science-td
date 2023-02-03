@@ -5,15 +5,15 @@ import sys
 
 Person = collections.namedtuple('Person', ['github_login', 'first_name', 'last_name', 'facts'])
 people = [
-    Person(github_login='example', first_name='Name', last_name='Surname',
-           facts=['Fact-right.', 'Fact-write.', 'Fact-right.']),
+    Person(github_login='tanyakurdelchuk', first_name='Tetiana', last_name='Kurdelchuk',
+           facts=['I was born in Belarus.', 'I arrived from Italy.', 'I am 21 years old.']),
     Person(github_login='javanochka', first_name='Anna', last_name='Nikiforovskaja',
            facts=['I can meow like a cat', 'I am a PhD student', 'I am not Estonian']),
     Person(github_login='srunnalin', first_name='Nalin', last_name='Srun',
            facts=['I like to sleep in my freetime :)', 'I am a master student', 'I am from Cambodia']),
 ]
 #facts are numerated from 0
-answers = {'example': 1,
+answers = {'tanyakurdelchuk': 1,
            'javanochka': 2}
 
 
