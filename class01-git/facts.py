@@ -7,14 +7,12 @@ Person = collections.namedtuple('Person', ['github_login', 'first_name', 'last_n
 people = [
     Person(github_login='example', first_name='Name', last_name='Surname',
            facts=['Fact-right.', 'Fact-write.', 'Fact-right.']),
-    Person(github_login='javanochka', first_name='Anna', last_name='Nikiforovskaja',
-           facts=['I can meow like a cat', 'I am a PhD student', 'I am not Estonian']),
-    Person(github_login='srunnalin', first_name='Nalin', last_name='Srun',
-           facts=['I like to sleep in my freetime :)', 'I am a master student', 'I am from Cambodia']),
+    Person(github_login='axellegapin', first_name='axelle', last_name='gapin',
+           facts=['I like pineapples', 'I am French', 'I got a dog']),,
 ]
 #facts are numerated from 0
 answers = {'example': 1,
-           'javanochka': 2}
+           'gapin': 2}
 
 
 def format_person_info(person):
