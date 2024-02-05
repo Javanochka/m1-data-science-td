@@ -18,7 +18,8 @@ people = [
 answers = {'example': 1,
            'javanochka': 2,
            'cat': 0,
-           'robin': 0}
+           'robin': 0,
+           "bla": 3}
 
 
 def format_person_info(person):
