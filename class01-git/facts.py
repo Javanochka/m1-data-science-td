@@ -13,13 +13,15 @@ people = [
            facts=['I am a dog',"I can say meow", "I like milk"]),
     Person(github_login="robin", first_name="Tweety", last_name="Bird",
            facts=["I have arms", "I can fly", "I eat worms"])
+    Person(github_login="fish", first_name="Nemo", last_name="Marlin",
+           facts=["I have legs", "I can swim", "I like water"])
 ]
 #facts are numerated from 0
 answers = {'example': 1,
            'javanochka': 2,
            'cat': 0,
-           'robin': 0}
-
+           'robin': 0,
+            'fish': 0}
 
 def format_person_info(person):
     return f'Name: {person.first_name} {person.last_name}.'
