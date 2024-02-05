@@ -15,12 +15,15 @@ people = [
             facts=['I am not Nigerian', 'I am a Ms student', 'I can fly']),
     Person(github_login="robin", first_name="Tweety", last_name="Bird",
            facts=["I have arms", "I can fly", "I eat worms"]),
+    Person(github_login="AmelieKnecht", first_name="Amelie", last_name="Knecht",
+           facts=["I love chocolate", "I speak German", "I do Karate"])
 ]
 # facts are numerated from 0
 answers = {'example': 1,
            'javanochka': 2,
            'cat': 0,
-           'robin': 0}
+           'robin': 0,
+           'AmelieKnecht': 2}
 
 
 def format_person_info(person):
