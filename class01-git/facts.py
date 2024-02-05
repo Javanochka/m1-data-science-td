@@ -11,6 +11,8 @@ people = [
            facts=['I can meow like a cat', 'I am a PhD student', 'I am not Estonian']),
     Person(github_login="cat", first_name="Martha", last_name="KittyCat",
            facts=['I am a dog',"I can say meow", "I like milk"]),
+    Person(github_login="Deijdane", first_name="Aubin", last_name="Medjaed",
+           facts=['Cats eat grass.',"I don't like grass.", "I'm not a cat person, more a dog person."]),
 ]
 #facts are numerated from 0
 answers = {'example': 1,
