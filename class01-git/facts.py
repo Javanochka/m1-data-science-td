@@ -23,7 +23,7 @@ answers = {'example': 1,
            'cat': 0,
            'Deijdane' : 3,
            'Hawawoo' : 4,
-           'zhengjian-li': 1}
+           'zhengjian-li': 5}
 
 
 def format_person_info(person):
