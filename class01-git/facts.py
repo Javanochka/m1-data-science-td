@@ -21,8 +21,7 @@ answers = {'example': 1,
            'javanochka': 2,
            'cat': 0,
            'robin': 0,
-           'AmelieKnecht': 2,
-           "bla": 3}
+           'AmelieKnecht': 2,}
 
 
 
