@@ -26,8 +26,7 @@ answers = {'example': 1,
            'javanochka': 2,
            'cat': 0,
            'robin': 0,
-           'JulienSchmitz' : 2,
-           "bla": 3}
+           'JulienSchmitz' : 2}
 
 
 def format_person_info(person):
