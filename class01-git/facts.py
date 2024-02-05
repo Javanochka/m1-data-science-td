@@ -2,7 +2,6 @@
 import collections
 import sys
 
-
 Person = collections.namedtuple('Person', ['github_login', 'first_name', 'last_name', 'facts'])
 people = [
     Person(github_login='example', first_name='Name', last_name='Surname',
@@ -10,9 +9,16 @@ people = [
     Person(github_login='javanochka', first_name='Anna', last_name='Nikiforovskaja',
            facts=['I can meow like a cat', 'I am a PhD student', 'I am not Estonian']),
     Person(github_login="cat", first_name="Martha", last_name="KittyCat",
-           facts=['I am a dog',"I can say meow", "I like milk"]),
+           facts=['I am a dog', "I can say meow", "I like milk"]),
+    Person(github_login="bird", first_name="Alice", last_name="Sinica",
+           facts=['I am a fish', "I can run", "I like fly"]),
+    Person(github_login="fish", first_name="Charlie", last_name="Sea",
+           facts=['I am a cat', "I can swim", "I like dive deep."]),
+    Person(github_login="grass", first_name="Grass", last_name="Green",
+           facts=['I am a tree', "I can grow", "I like a sun"])
+
 ]
-#facts are numerated from 0
+# facts are numerated from 0
 answers = {'example': 1,
            'javanochka': 2,
            'cat': 0}
@@ -78,5 +84,5 @@ if __name__ == '__main__':
         print('> ', end='', flush=True)
         try:
             run_cmd(sys.stdin.readline().strip())
-        except Exception: # This is a VERY bad style.
+        except Exception:  # This is a VERY bad style.
             continue
