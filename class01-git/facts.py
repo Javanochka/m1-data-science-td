@@ -11,22 +11,25 @@ people = [
            facts=['I can meow like a cat', 'I am a PhD student', 'I am not Estonian']),
     Person(github_login="cat", first_name="Martha", last_name="KittyCat",
            facts=['I am a dog',"I can say meow", "I like milk"]),
-    Person(github_login='tunji17', first_name='Oyetunji', last_name='Abioye',
-            facts=['I am not Nigerian', 'I am a Ms student', 'I can fly']),
-    Person(github_login="robin", first_name="Tweety", last_name="Bird",
-           facts=["I have arms", "I can fly", "I eat worms"]),
     Person(github_login="Deijdane", first_name="Aubin", last_name="Medjaed",
            facts=['Cats eat grass.',"I don't like grass.", "I'm not a cat person, more a dog person."]),
     Person(github_login="Hawawou", first_name="Hawawou", facts=['I am a student', 'I am from Togo', 'I love cats']),
-    Person(github_login='JulienSchmitz', first_name='Julien', last_name='Schmitz',
-           facts=['I am an apprentice', 'I am French', 'I play the piano']),
+    Person(github_login="zhengjian-li", first_name="Zhengjian", last_name="Li",
+           facts=['I am a cat', "I am not a dog", "I am a human"]),
+    Person(github_login="robin", first_name="Tweety", last_name="Bird",
+           facts=["I have arms", "I can fly", "I eat worms"]),
+    Person(github_login="blah", first_name="Blah", last_name="Blah",
+           facts=["blah", "blah blah", "aaaah!"]),
 ]
 # facts are numerated from 0
 answers = {'example': 1,
            'javanochka': 2,
            'cat': 0,
+           'Deijdane' : 1,
+           'Hawawoo' : 1,
+           'zhengjian-li': 1,
            'robin': 0,
-           'JulienSchmitz' : 2}
+           "blah": 2}
 
 
 def format_person_info(person):
