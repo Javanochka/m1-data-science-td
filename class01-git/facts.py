@@ -11,12 +11,15 @@ people = [
            facts=['I can meow like a cat', 'I am a PhD student', 'I am not Estonian']),
     Person(github_login="cat", first_name="Martha", last_name="KittyCat",
            facts=['I am a dog',"I can say meow", "I like milk"]),
-    Person(github_login='Belen96x', first_name='Belen', last_name='Saavedra', facts=['I am a linguist', 'I travel with my cat', 'I can fly'])
+    Person(github_login='Belen96x', first_name='Belen', last_name='Saavedra', facts=['I am a linguist', 'I travel with my cat', 'I can fly']),
+    Person(github_login='tunji17', first_name='Oyetunji', last_name='Abioye', facts=['I am not Nigerian', 'I am a Ms student', 'I can fly']),
+    Person(github_login="robin", first_name="Tweety", last_name="Bird", facts=["I have arms", "I can fly", "I eat worms"])
 ]
-#facts are numerated from 0
+# facts are numerated from 0
 answers = {'example': 1,
            'javanochka': 2,
-           'cat': 0}
+           'cat': 0,
+           'robin': 0}
 
 
 def format_person_info(person):
