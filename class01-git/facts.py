@@ -12,7 +12,7 @@ people = [
     Person(github_login="cat", first_name="Martha", last_name="KittyCat",
            facts=['I am a dog',"I can say meow", "I like milk"]),
     Person(github_login="robin", first_name="Tweety", last_name="Bird",
-           facts=["I have arms", "I can fly", "I eat worms"])
+           facts=["I have arms", "I can fly", "I eat worms"]),
     Person(github_login="fish", first_name="Nemo", last_name="Marlin",
            facts=["I have legs", "I can swim", "I like water"])
 ]
