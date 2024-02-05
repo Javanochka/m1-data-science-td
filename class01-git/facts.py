@@ -23,10 +23,10 @@ people = [
 answers = {'example': 1,
            'javanochka': 2,
            'cat': 0,
-           'Deijdane' : 3,
-           'Hawawoo' : 4,
-           'zhengjian-li': 5,
-           'robin': 6}
+           'Deijdane' : 1,
+           'Hawawoo' : 1,
+           'zhengjian-li': 1,
+           'robin': 0}
 
 
 def format_person_info(person):
