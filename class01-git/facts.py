@@ -20,6 +20,8 @@ people = [
            facts=["I have arms", "I can fly", "I eat worms"]),
     Person(github_login="blah", first_name="Blah", last_name="Blah",
            facts=["blah", "blah blah", "aaaah!"]),
+    Person(github_login='JulienSchmitz', first_name='Julien', last_name='Schmitz',
+           facts=['I am an apprentice', 'I am French', 'I play the piano']),
 ]
 # facts are numerated from 0
 answers = {'example': 1,
@@ -29,7 +31,8 @@ answers = {'example': 1,
            'Hawawoo' : 1,
            'zhengjian-li': 1,
            'robin': 0,
-           "blah": 2}
+           "blah": 2,
+           'JulienSchmitz' : 2,}
 
 
 def format_person_info(person):
