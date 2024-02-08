@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 import collections
 import sys
@@ -15,6 +16,9 @@ people = [
            facts=["I have arms", "I can fly", "I eat worms"]),
     Person(github_login="blah", first_name="Blah", last_name="Blah",
            facts=["blah", "blah blah", "aaaah!"]),
+    Person(github_login='Kira252Grudinina', first_name='Kira', last_name='Grudinina',
+      	   facts=['I love coding', 'I speak many languages', 'I have a dog'])
+
 ]
 # facts are numerated from 0
 answers = {'example': 1,
