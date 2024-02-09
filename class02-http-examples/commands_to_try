@@ -1,0 +1,3 @@
+curl https://en.wikipedia.org/wiki/France -o france.html
+curl https://reqres.in/api/users?id=5 | json_pp
+curl -d '{"name":"Cat Fluffy","job":"Meowing"}' -H 'Content-Type: application/json' https://reqres.in/api/users | json_pp
