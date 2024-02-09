@@ -14,17 +14,17 @@ people = [
     Person(github_login="robin", first_name="Tweety", last_name="Bird",
            facts=["I have arms", "I can fly", "I eat worms"]),
     Person(github_login="blah", first_name="Blah", last_name="Blah",
-           facts=["blah", "blah blah", "aaaah!"])
-    Person(github_login="Alexatomoon", first_name="alex", last_name="ciub",
-           facts=["going to the moon", "interested in writting", "not interested in politics"]),
+           facts=["blah", "blah blah", "aaaah!"]),
+    Person(github_login="Alexatomoon", first_name="Alex", last_name="Ciub",
+           facts=["interested in writting", "gone to the sea", "spiraling"])
 ]
 # facts are numerated from 0
 answers = {'example': 1,
            'javanochka': 2,
            'cat': 0,
            'robin': 0,
-           "blah": 2
-           'Alexatomoon': 2}
+           "blah": 2,
+          'Alexatomoon':1}
 
 
 def format_person_info(person):
