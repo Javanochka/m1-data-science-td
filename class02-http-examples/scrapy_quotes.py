@@ -1,6 +1,6 @@
 import scrapy
 
-class QuotesSpider(scrapy.Spider):
+class QuotesSpider(scrapy.Spider): #You create a class that will scrap the content
     name = "MyFirstQuoteSpider"
     start_urls = ["http://quotes.toscrape.com/page/1/"]
    
@@ -14,7 +14,7 @@ class QuotesSpider(scrapy.Spider):
     """
     def parse(self, response):
         with open('quotes-s.txt', 'a') as f:
-            quotes = response.css("div.quote")
+            quotes = response.css("div.quote") #is checking the css instead of html
             for quote in quotes:
                 text = quote.css('span.text::text').extract_first()
                 print(text,file=f)
